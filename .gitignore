@@ -1,0 +1,19 @@
+# AI Training Outputs
+runs/
+*.pt
+*.onnx
+
+# Datasets (Large files)
+datasets/
+*.zip
+*.tar
+*.gz
+
+# Python Environment & Cache
+__pycache__/
+.venv/
+env/
+.DS_Store
+
+# User-specific settings
+.vscode/
