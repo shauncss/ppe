@@ -1,15 +1,13 @@
 from ultralytics import YOLO
-import os
 
 if __name__ == '__main__':
-    # 1. Load the model
-    model = YOLO('yolo11m.pt') 
+    model = YOLO('yolo26l.pt') 
 
-    # 2. Train the model
     model.train(
-        data="construction-ppe.yaml", 
+        data="roboflow_dataset/data.yaml", 
         epochs=50, 
-        imgsz=1280, 
-        batch=4, 
-        device=0
+        imgsz=1024,
+        batch=2,
+        workers=2,
+        device=0 
     )

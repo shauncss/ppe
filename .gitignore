@@ -1,19 +1,22 @@
-# AI Training Outputs
 runs/
+wandb/
+
 *.pt
-*.onnx
+*.pth
+*.weights
 
-# Datasets (Large files)
-datasets/
-*.zip
-*.tar
-*.gz
+roboflow_dataset/
 
-# Python Environment & Cache
 __pycache__/
-.venv/
+*.pyc
+*.pyo
+*.pyd
+.Python
 env/
-.DS_Store
+venv/
+.venv/
+Scripts/
 
-# User-specific settings
 .vscode/
+.DS_Store
+Thumbs.db
