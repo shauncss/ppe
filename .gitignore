@@ -1,11 +1,12 @@
 runs/
+roboflow_dataset/
 wandb/
 
 *.pt
 *.pth
 *.weights
 
-roboflow_dataset/
+
 
 __pycache__/
 *.pyc
