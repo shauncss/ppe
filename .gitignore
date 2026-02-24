@@ -1,4 +1,42 @@
+# =========================
+# YOLO & Machine Learning
+# =========================
 runs/
-roboflow_dataset/
-
+wandb/
 *.pt
+*.pth
+*.weights
+
+# =========================
+# Datasets & Media
+# =========================
+roboflow_dataset/
+datasets/
+images/
+*.zip
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+
+# =========================
+# Python Caches & Environments
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+Scripts/
+
+# =========================
+# IDE & OS Files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
